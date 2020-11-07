@@ -1,0 +1,132 @@
+/* color vaiable  */
+:root{
+    --primary:#025CE2;
+}
+
+/* html{
+    scroll-behavior: smooth;
+} */
+
+
+/* navber */
+.navbar .nav-item{
+    margin-right: 30px;
+}
+
+
+
+/* home */
+
+#home .fab{
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+#home .fab{
+    color: #000;
+}
+#home .fab:hover{
+    color: var(--primary);
+}
+
+#home .btn{
+    border-radius: 0px;
+}
+
+
+
+/* about section  */
+#about h2{
+    letter-spacing: .9rem;
+}
+
+
+
+#about img{
+    width: 350px;
+    height: auto;
+
+}
+
+
+/* services section  */
+
+
+
+
+
+/* utility section  */
+hr{
+    background-color: var(--primary);
+    width: 100px;
+    
+}
+
+
+/* media queries */
+@media(max-width:991px){
+  
+    #home{
+        text-align: center;
+    }
+
+    #about{
+       text-align: center;
+    }
+    #about h2{
+       font-size: 1.5rem;
+    }
+
+}
+
+/* contact section  */
+
+#contact .h{
+
+    width: 300px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+#contact .custom{
+    margin-top: 25px;
+}
+
+
+
+@media(max-width:768px){
+    .navbar .nav-item{
+        padding-left: 0 !important;
+    }
+    #home{
+        text-align: center;
+    }
+
+    #about{
+       text-align: center;
+    }
+    #about h2{
+       font-size: 1.5rem;
+    }
+
+}   
+
+@media(max-width:480px){
+    #home{
+        text-align: center;
+    }
+   #home .name{
+       font-size: 2rem;
+   }
+   #about{
+    margin-top: 30px;
+}
+   #about h2{
+    letter-spacing: 2.5px;
+   
+}
+}
+  
+
