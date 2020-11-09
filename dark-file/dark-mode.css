@@ -44,6 +44,6 @@
 }
 [data-theme="dark"] .card{
   color: #fff !important;
-  background-color: #000;
+  background-color: #000 !important;
 }
 
