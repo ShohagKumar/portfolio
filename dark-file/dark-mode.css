@@ -42,3 +42,8 @@
 [data-theme="dark"] h3{
   color: #fff !important;
 }
+[data-theme="dark"] .card{
+  color: #fff !important;
+  background-color: #000;
+}
+
